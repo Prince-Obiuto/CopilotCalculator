@@ -38,11 +38,6 @@ function calculate(operand1, operand2, operation) {
             return;
     }
 
-    /*
-    uri += "&operand1=" + encodeURIComponent(operand1);
-    uri += "&operand2=" + encodeURIComponent(operand2);
-    */
-
     var payLoad = JSON.stringify({ a: operand1, b: operand2 })
 
     setLoading(true);
